@@ -1,73 +1,57 @@
 import './App.css';
-import React, {useState, useEffect} from 'react'
-import Article from './components/article/Article'
+import React, {useState} from 'react';
+import Article from './components/article/Article';
 
+function App(props) {
 
-
-function App() {
+  const [articles, setArticles] = useState([]);
+  const [search, setSearch] = useState('');
  
-  const [articles, setArticles] = useState([])
-  const [subReddit, setSubReddit] = useState('news');
 
-
-  useEffect(()=>{
-    
-    fetch('https://www.reddit.com/r/'+ subReddit + '.json').then(res=>{
-      if(res.status !== 200){
-        console.log('error')
-        return
-      }
+  const handleSearch = (e) => {
+    const searchResult = fetch('http://www.reddit.com/r/' + search + '.json')
+    searchResult.then(res=>{
       res.json().then(data=>{
-
-          setArticles(data.data.children)
-          console.log(articles)
-        
+        setArticles(data.data.children)
+        console.log(articles)
+        return
       })
     })
-  }, [subReddit])
+    e.preventDefault()
+    console.log(search)
+  }
+  const handleInputChange = (e) => {
+    setSearch(e.target.value)
 
-
-  const handleSubmit = (e) => {
-    setSubReddit(e.target.value)
-    console.log(e.target.value)
   }
 
 
   return (
     <div className="App">
       
-      <header>
-        <h1 className='title'>Reddit-Reader</h1>
-      </header>
-
-      <form>
+      <header><h2 className='title'>Reddit-Reader</h2></header>
+      <br></br>
+        <form onSubmit={handleSearch}>
             <input 
-                type='text' 
-                className='searchBar' 
-   
-              
-            
-                onSubmit={handleSubmit}
+              className='searchBar' 
+              type='text'
+              onChange={handleInputChange}
+  
             />
             <button className='button'>Search</button>
         </form>
 
+        <br></br>
 
-      <br></br>
+        <div className='window1'>
+            {
+              articles.map((article,index) => <Article key={index} article={article.data}/>)
+            }
+        </div>
 
-      <div className='window1'>
-       
-       {  articles.map((article,index) => <Article key={index} article={article.data}/>)  }
-
-      </div>
-
-
-      <div className='window2'></div>
-
-  </div>
+    </div>
 
   );
 }
 
 export default App;
-

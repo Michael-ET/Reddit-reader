@@ -1,21 +1,22 @@
 .App {
   text-align: center;
-  justify-content: center;
-  flex-direction: column;
   border-style:hidden;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .title{
   background-color: rgb(241, 238, 255);
   color: rgb(145, 123, 251);
   font-size: 37px;
-  font-family:monospace;
   font-stretch: wider;
-  margin-inline: 450px;
+  width: 500px;
   border-radius: 50px;  
   box-shadow: 4px 4px 7px;
-  flex-direction: column;
   border-style:hidden;
+  text-overflow:clip;
+  margin: auto;
+  margin-top: 20px ;
+
 }
 
 .searchBar{
@@ -27,17 +28,15 @@
   box-shadow: 4px 4px 7px;
   color: rgb(145, 123, 251);
   border-style: hidden;
-  font-family:monospace;
-  font-size: 17px;
+  font-size: 24px;
   text-align: center;
-  margin-left: 50px;
-  flex-direction: column;
-  margin-bottom: 16px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin:auto;
+
 }
 
 .button{
   font-size: 17px;
-  font-family:monospace;
   border-style: hidden;
   color: rgb(145, 123, 251);
   border-radius: 50px;
@@ -46,64 +45,56 @@
   padding-left: 10px;
   width: 100px;
   box-shadow: 4px 4px 7px;
-  text-align: center;
   font-weight: bolder;
   border-style:hidden;
-  margin: 14px
-  
+  margin:auto;
+  margin-left: 15px;
 }
+
 
 .window1{
   background-color: rgb(241, 238, 255);
   box-shadow: 4px 4px 7px;
-  padding: 40px;
+  padding:10px;
   border-radius: 50px;
-  display: flex;
   height: 1150px;
   color: rgb(145, 123, 251);
-  flex-direction: column;
   border-style:hidden;
-  overflow-y:auto;
-
- 
-  float:left;
-  margin-left:90px;
-  width: 500px;
+  overflow-y:auto; 
+  width: 600px;
+  margin: auto;
 }
 
-.window2{
+.pic{
+  height:170px;
+  width: 240px;
+  border-radius: 25px;
+  margin-bottom: 15px;
   background-color: rgb(241, 238, 255);
-  box-shadow: 4px 4px 7px;
-  padding: 40px;
-  border-radius: 50px;
-  width: 500px;
-  height: 1150px;
+  box-shadow: 3px 3px 5px;
   color: rgb(145, 123, 251);
-  float: right;
-  border-style:hidden;
-  margin-right:90px;
-  flex-direction: column;
 }
-
 
 .article{
-  font-family:monospace;
-  font-size:20px;
-  text-align:left;
-  padding: 30px;
+  width:500px;
   box-shadow: 4px 4px 7px;
   border-radius: 50px;
   color: rgb(145, 123, 251);
   background-color: rgb(214, 207, 254);
-  margin: 12px;
+  margin:20px;
   border-style:hidden;
-} 
+  padding: 25px;
+  list-style-type:none;
+  text-align: left;
+  font-size: 19px;
+  text-decoration: none;
+
+}
 
 .article:hover{
    transition: width 0.8s, height 0.8s, box-shadow 0.3s, margin 0.8s;
-   margin:14px;
    box-shadow: 10px 10px 10px;
-   margin: 12px;
+ 
   }
 
   .article:active{
@@ -119,3 +110,6 @@
   .button:active{
     color:violet;
   }
+
+
+  
