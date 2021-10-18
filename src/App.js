@@ -3,13 +3,12 @@ import React, {useState} from 'react';
 import Article from './components/article/Article';
 
 function App(props) {
-
   const [articles, setArticles] = useState([]);
   const [search, setSearch] = useState('');
  
 
   const handleSearch = (e) => {
-    const searchResult = fetch('http://www.reddit.com/r/' + search + '.json')
+    const searchResult = fetch('http://www.reddit.com/search.json?q=' + search)
     searchResult.then(res=>{
       res.json().then(data=>{
         setArticles(data.data.children)
@@ -18,13 +17,12 @@ function App(props) {
       })
     })
     e.preventDefault()
-    console.log(search)
   }
+  
   const handleInputChange = (e) => {
     setSearch(e.target.value)
-
   }
-
+  console.log(articles)
 
   return (
     <div className="App">
@@ -36,7 +34,7 @@ function App(props) {
               className='searchBar' 
               type='text'
               onChange={handleInputChange}
-  
+              placeholder='Search me...'
             />
             <button className='button'>Search</button>
         </form>

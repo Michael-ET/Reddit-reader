@@ -56,8 +56,8 @@
   background-color: rgb(241, 238, 255);
   box-shadow: 4px 4px 7px;
   padding:10px;
-  border-radius: 50px;
-  height: 1150px;
+  border-radius: 40px;
+  height: 1080px;
   color: rgb(145, 123, 251);
   border-style:hidden;
   overflow-y:auto; 
@@ -66,28 +66,40 @@
 }
 
 .pic{
-  height:170px;
-  width: 240px;
-  border-radius: 25px;
+  block-size: 130px;
+  max-block-size: 130;
+  max-width: 280px;
+  border-radius: 20px;
   margin-bottom: 15px;
   background-color: rgb(241, 238, 255);
   box-shadow: 3px 3px 5px;
   color: rgb(145, 123, 251);
 }
 
+.anc{
+  text-decoration: none;
+  color: rgb(145, 123, 251);
+  text-align: left;
+  font-size: 20px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+}
+
+.votes{
+  float:right;
+  margin:10px;
+}
+
 .article{
   width:500px;
   box-shadow: 4px 4px 7px;
-  border-radius: 50px;
+  border-radius: 40px;
   color: rgb(145, 123, 251);
   background-color: rgb(214, 207, 254);
-  margin:20px;
+  margin:25px;
   border-style:hidden;
   padding: 25px;
   list-style-type:none;
-  text-align: left;
-  font-size: 19px;
-  text-decoration: none;
 
 }
 
