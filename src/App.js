@@ -2,6 +2,7 @@ import './App.css';
 import React, {useState} from 'react';
 import Article from './components/article/Article';
 
+
 function App(props) {
   const [articles, setArticles] = useState([]);
   const [search, setSearch] = useState('');
@@ -21,14 +22,19 @@ function App(props) {
   
   const handleInputChange = (e) => {
     setSearch(e.target.value)
+     
   }
-  console.log(articles)
+ 
 
   return (
     <div className="App">
       
-      <header><h2 className='title'>Reddit-Reader</h2></header>
-      <br></br>
+      <header className='topBar'>
+        <img className='logo1' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW0aa8LVRV6djTyVBBNRpf_qt-ULHwqC2ysUHK3PkZdYCgUYiN_YEPKk4qvUDIrM6qhH4&usqp=CAU'></img>
+        <img className='logo2' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW0aa8LVRV6djTyVBBNRpf_qt-ULHwqC2ysUHK3PkZdYCgUYiN_YEPKk4qvUDIrM6qhH4&usqp=CAU'></img>
+        <h1 className='title'>Reddit-Reader</h1>         
+      </header>
+     
         <form onSubmit={handleSearch}>
             <input 
               className='searchBar' 

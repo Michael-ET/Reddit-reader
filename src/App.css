@@ -4,39 +4,63 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.title{
+.logo1{
+  margin: auto;
+  float: left;
+  block-size: 40px;
+  border-radius: 100px;
+  padding:8px;
+}
+
+.logo2{
+  margin: auto;
+  float:right;
+  block-size: 40px;
+  border-radius: 100px;
+  padding:8px;
+}
+
+.logo3{
+  block-size: 160px;
+  margin:10px;
+  border-radius: 100px;
+  padding:8px;
+
+}
+.topBar{
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-color: rgb(241, 238, 255);
-  color: rgb(145, 123, 251);
-  font-size: 37px;
-  font-stretch: wider;
-  width: 500px;
   border-radius: 50px;  
   box-shadow: 4px 4px 7px;
+  width: 400px;
   border-style:hidden;
-  text-overflow:clip;
   margin: auto;
-  margin-top: 20px ;
+  color: rgb(145, 123, 251);
+}
 
+.title{
+  padding:10px;
 }
 
 .searchBar{
   border-radius: 50px;
   background-color: rgb(241, 238, 255);
-  padding: 15px;
-  padding-left: 10px;
+  padding: 10px;
   width: 315px;
   box-shadow: 4px 4px 7px;
   color: rgb(145, 123, 251);
   border-style: hidden;
-  font-size: 24px;
+  font-size: 21px;
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin:auto;
+  margin-bottom: 7px;;
 
 }
 
 .button{
-  font-size: 17px;
+  font-size: 14px;
   border-style: hidden;
   color: rgb(145, 123, 251);
   border-radius: 50px;
@@ -48,32 +72,36 @@
   font-weight: bolder;
   border-style:hidden;
   margin:auto;
-  margin-left: 15px;
+  margin-left: 12px;
 }
-
 
 .window1{
   background-color: rgb(241, 238, 255);
   box-shadow: 4px 4px 7px;
   padding:10px;
   border-radius: 40px;
-  height: 1080px;
+  height: 1060px;
   color: rgb(145, 123, 251);
   border-style:hidden;
   overflow-y:auto; 
-  width: 600px;
+  width: 700px;
   margin: auto;
+  align-items: center;;
 }
 
 .pic{
-  block-size: 130px;
-  max-block-size: 130;
-  max-width: 280px;
+  min-width: 190px;
+  max-width: 190px;
+  max-height: 190px;
+  min-height: 190px;
   border-radius: 20px;
-  margin-bottom: 15px;
   background-color: rgb(241, 238, 255);
   box-shadow: 3px 3px 5px;
   color: rgb(145, 123, 251);
+}
+
+.picSpace{
+  block-size: 170px;
 }
 
 .anc{
@@ -82,31 +110,60 @@
   text-align: left;
   font-size: 20px;
   text-decoration: none;
-  text-overflow: ellipsis;
-}
-
-.votes{
-  float:right;
-  margin:10px;
 }
 
 .article{
-  width:500px;
+  float:center;
+  width:580px;
   box-shadow: 4px 4px 7px;
-  border-radius: 40px;
+  border-radius: 32px;
   color: rgb(145, 123, 251);
   background-color: rgb(214, 207, 254);
   margin:25px;
   border-style:hidden;
-  padding: 25px;
+  padding: 22px;
   list-style-type:none;
+  overflow-y: auto;
+}
 
+.commentBox{
+  box-shadow: 4px 4px 7px;
+  color: rgb(145, 123, 251);
+  background-color: rgb(241, 238, 255);
+  border-style: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 190px;
+  width: 370px;
+  border-radius: 20px;
+  float:right;
+}
+
+.comment{
+  border-style:hidden;
+  box-shadow: 1px 1px 3px;
+  background-color: rgb(201, 191, 255);
+  font-size:12px;
+  margin: 8px;
+  border-radius: 20px;
+  padding: 12px;
+  
+ 
+}
+
+.aTitle{
+  margin-left:10px;
+}
+
+.cTitle{
+  font-size:14px;
+  padding-bottom:5px;
+ 
 }
 
 .article:hover{
    transition: width 0.8s, height 0.8s, box-shadow 0.3s, margin 0.8s;
-   box-shadow: 10px 10px 10px;
- 
+   box-shadow: 8px 8px 10px;
   }
 
   .article:active{
@@ -114,9 +171,8 @@
   }
 
   .button:hover{
-   transition: box-shadow 0.3s;
-   box-shadow: 10px 10px 10px;
-  
+   transition: box-shadow 0.4s;
+   box-shadow: 12px 12px 8px;
   }
 
   .button:active{
