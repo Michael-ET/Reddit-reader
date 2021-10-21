@@ -21,10 +21,15 @@
 }
 
 .logo3{
-  block-size: 160px;
-  margin:10px;
-  border-radius: 100px;
-  padding:8px;
+  min-width: 190px;
+  max-width: 190px;
+  max-height: 190px;
+  min-height: 190px;
+  block-size: 170px;
+
+  border-radius: 20px;
+ 
+  box-shadow: 3px 3px 5px;
 }
 
 .topBar{
@@ -117,7 +122,7 @@
   border-radius: 20px;
   color: rgb(145, 123, 251);
   background-color: rgb(214, 207, 254);
-  margin:20px;
+  margin:25px;
   margin-left:35px;
   border-style:hidden;
   padding: 22px;
@@ -143,7 +148,7 @@
   box-shadow: 1px 1px 3px;
   background-color: rgb(201, 191, 255);
   font-size:12px;
-  margin: 6px;
+  margin: 8px;
   margin-left:8px;
   border-radius: 20px;
   padding: 12px;
