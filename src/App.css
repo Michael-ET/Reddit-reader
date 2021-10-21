@@ -25,8 +25,8 @@
   margin:10px;
   border-radius: 100px;
   padding:8px;
-
 }
+
 .topBar{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -56,7 +56,6 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin:auto;
   margin-bottom: 7px;;
-
 }
 
 .button{
@@ -79,7 +78,7 @@
   background-color: rgb(241, 238, 255);
   box-shadow: 4px 4px 7px;
   padding:10px;
-  border-radius: 40px;
+  border-radius: 20px;
   height: 1060px;
   color: rgb(145, 123, 251);
   border-style:hidden;
@@ -113,13 +112,13 @@
 }
 
 .article{
-  float:center;
   width:580px;
   box-shadow: 4px 4px 7px;
-  border-radius: 32px;
+  border-radius: 20px;
   color: rgb(145, 123, 251);
   background-color: rgb(214, 207, 254);
-  margin:25px;
+  margin:20px;
+  margin-left:35px;
   border-style:hidden;
   padding: 22px;
   list-style-type:none;
@@ -144,40 +143,48 @@
   box-shadow: 1px 1px 3px;
   background-color: rgb(201, 191, 255);
   font-size:12px;
-  margin: 8px;
+  margin: 6px;
+  margin-left:8px;
   border-radius: 20px;
   padding: 12px;
+  text-wrap:auto;
   
- 
 }
 
 .aTitle{
   margin-left:10px;
+  font-size: 22px;
+}
+
+.uTitle{
+  font-size:14px;
+  margin-bottom: 5px;
 }
 
 .cTitle{
-  font-size:14px;
-  padding-bottom:5px;
- 
+  font-size:15px;
+  margin-left:14px;
+  margin-top:7px;
+  text-align:center;
 }
 
 .article:hover{
    transition: width 0.8s, height 0.8s, box-shadow 0.3s, margin 0.8s;
    box-shadow: 8px 8px 10px;
-  }
+}
 
-  .article:active{
+.article:active{
     color: violet;
-  }
+}
 
-  .button:hover{
+.button:hover{
    transition: box-shadow 0.4s;
    box-shadow: 12px 12px 8px;
-  }
+}
 
-  .button:active{
+.button:active{
     color:violet;
-  }
+}
 
 
   
