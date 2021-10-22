@@ -26,9 +26,7 @@
   max-height: 190px;
   min-height: 190px;
   block-size: 170px;
-
   border-radius: 20px;
- 
   box-shadow: 3px 3px 5px;
 }
 
@@ -84,7 +82,7 @@
   box-shadow: 4px 4px 7px;
   padding:10px;
   border-radius: 20px;
-  height: 1060px;
+  height: 1070px;
   color: rgb(145, 123, 251);
   border-style:hidden;
   overflow-y:auto; 
@@ -141,6 +139,7 @@
   width: 370px;
   border-radius: 20px;
   float:right;
+  overflow-wrap: break-word;
 }
 
 .comment{

@@ -11,7 +11,7 @@ useEffect(()=>{
             setComments(data[1].data.children)
         })
     })
-})
+}, [props.data.permalink])
 
     return(
         <div className='commentBox'>
