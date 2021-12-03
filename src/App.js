@@ -12,7 +12,7 @@ function App(props) {
       res.json().then(data=>{
         setArticles(data.data.children)
         return
-      })
+      }) 
     })
     e.preventDefault()
   }
