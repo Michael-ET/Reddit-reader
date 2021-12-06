@@ -1,7 +1,8 @@
 {
   "name": "reddit-reader",
   "version": "0.1.0",
-  "private": true,
+  "private": true, 
+  "homepage": "http://michael-et.github.io/reddit-reader",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -10,8 +11,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2",
-      "homepage": "http://michael-et.github.io/reddit-reader/"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
