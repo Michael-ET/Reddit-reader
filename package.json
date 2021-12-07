@@ -2,7 +2,7 @@
   "name": "reddit-reader",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://michael-et.github.io/reddit-reader",
+  "homepage": "https://michael-et.github.io/reddit-reader",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
