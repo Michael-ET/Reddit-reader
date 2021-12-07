@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reddit-reader/static/css/main.a7a03ae8.chunk.css",
-    "main.js": "/reddit-reader/static/js/main.f23e9891.chunk.js",
-    "main.js.map": "/reddit-reader/static/js/main.f23e9891.chunk.js.map",
-    "runtime-main.js": "/reddit-reader/static/js/runtime-main.d8db19ef.js",
-    "runtime-main.js.map": "/reddit-reader/static/js/runtime-main.d8db19ef.js.map",
-    "static/js/2.d5e7e37e.chunk.js": "/reddit-reader/static/js/2.d5e7e37e.chunk.js",
-    "static/js/2.d5e7e37e.chunk.js.map": "/reddit-reader/static/js/2.d5e7e37e.chunk.js.map",
-    "static/js/3.130e0e84.chunk.js": "/reddit-reader/static/js/3.130e0e84.chunk.js",
-    "static/js/3.130e0e84.chunk.js.map": "/reddit-reader/static/js/3.130e0e84.chunk.js.map",
-    "index.html": "/reddit-reader/index.html",
-    "static/css/main.a7a03ae8.chunk.css.map": "/reddit-reader/static/css/main.a7a03ae8.chunk.css.map",
-    "static/js/2.d5e7e37e.chunk.js.LICENSE.txt": "/reddit-reader/static/js/2.d5e7e37e.chunk.js.LICENSE.txt"
+    "main.css": "/Reddit-reader/static/css/main.a7a03ae8.chunk.css",
+    "main.js": "/Reddit-reader/static/js/main.371d9f60.chunk.js",
+    "main.js.map": "/Reddit-reader/static/js/main.371d9f60.chunk.js.map",
+    "runtime-main.js": "/Reddit-reader/static/js/runtime-main.43a8456d.js",
+    "runtime-main.js.map": "/Reddit-reader/static/js/runtime-main.43a8456d.js.map",
+    "static/js/2.d5e7e37e.chunk.js": "/Reddit-reader/static/js/2.d5e7e37e.chunk.js",
+    "static/js/2.d5e7e37e.chunk.js.map": "/Reddit-reader/static/js/2.d5e7e37e.chunk.js.map",
+    "static/js/3.130e0e84.chunk.js": "/Reddit-reader/static/js/3.130e0e84.chunk.js",
+    "static/js/3.130e0e84.chunk.js.map": "/Reddit-reader/static/js/3.130e0e84.chunk.js.map",
+    "index.html": "/Reddit-reader/index.html",
+    "static/css/main.a7a03ae8.chunk.css.map": "/Reddit-reader/static/css/main.a7a03ae8.chunk.css.map",
+    "static/js/2.d5e7e37e.chunk.js.LICENSE.txt": "/Reddit-reader/static/js/2.d5e7e37e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8db19ef.js",
+    "static/js/runtime-main.43a8456d.js",
     "static/js/2.d5e7e37e.chunk.js",
     "static/css/main.a7a03ae8.chunk.css",
-    "static/js/main.f23e9891.chunk.js"
+    "static/js/main.371d9f60.chunk.js"
   ]
 }
