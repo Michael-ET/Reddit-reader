@@ -7,7 +7,7 @@ function App(props) {
   const [search, setSearch] = useState('');
  
   const handleSearch = (e) => {
-    const searchResult = fetch('http://www.reddit.com/search.json?q=' + search)
+    const searchResult = fetch('https://www.reddit.com/search.json?q=' + search)
     searchResult.then(res=>{
       res.json().then(data=>{
         setArticles(data.data.children)
