@@ -1,4 +1,4 @@
-Reddit-Reader
+# Reddit-Reader
 
 The Reddit-reader is an application that accessess information from the reddit  JSON API
 and displays it. It also allows the user to view comments and link to the article. Technologies 
